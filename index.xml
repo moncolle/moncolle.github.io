@@ -80,6 +80,11 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;リンクはこのように &lt;a href=&#34;htttp://www.yahoo.co.jp&#34;&gt;yahoo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;#追加
+ここまででSSH鍵の作成と有効化、そしてGithubへのSSH鍵の登録のプロセスは終了です。
+これによって、SSHによるリモートリポジトリとローカルリポジトリの連携が可能になります。
+また別記事で、Github上へリポジトリの作成を行い、ローカルのリポジトリと連携させる手順についてまとめたいと思います。&lt;/p&gt;
 </description>
     </item>
     
