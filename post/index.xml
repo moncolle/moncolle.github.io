@@ -26,6 +26,10 @@
 
 &lt;p&gt;ここに記事を書きます。&lt;/p&gt;
 
+&lt;p&gt;画像のテストです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://moncolle.github.io/images/2017/04/test.jpg&#34; alt=&#34;テスト&#34; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;見出し&#34;&gt;見出し&lt;/h2&gt;
 
 &lt;p&gt;見出しの下に本文です。&lt;/p&gt;
