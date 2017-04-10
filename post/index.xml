@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on MonColle Get Info</title>
+    <link>https://example.com/post/index.xml</link>
+    <description>Recent content in Posts on MonColle Get Info</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/mgjohansen&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <lastBuildDate>Mon, 10 Apr 2017 05:41:11 +0000</lastBuildDate>
+    <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>テスト記事</title>
+      <link>https://example.com/post/hello_world/</link>
+      <pubDate>Mon, 10 Apr 2017 05:41:11 +0000</pubDate>
+      
+      <guid>https://example.com/post/hello_world/</guid>
+      <description>&lt;p&gt;#テスト
+ここに記事を書きます。&lt;/p&gt;
+
+&lt;p&gt;##見出し
+見出しの下に本文です。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;名前&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;テスト&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;テーブル&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;太郎&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;持ってる&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;##リスト&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サンプル1&lt;/li&gt;
+&lt;li&gt;サンプル2
+
+&lt;ul&gt;
+&lt;li&gt;サンプルa&lt;/li&gt;
+&lt;li&gt;サンプルb&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;サンプル3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###さらにリスト&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ダミー&lt;/li&gt;
+&lt;li&gt;ダミー&lt;/li&gt;
+&lt;li&gt;ダミー&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;##その他&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;コード
+ブロック
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;###引用&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;テスト
+&lt;a href=&#34;http://google.co.jp&#34;&gt;http://google.co.jp&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;リンクはこのように &lt;a href=&#34;htttp://www.yahoo.co.jp&#34;&gt;yahoo&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
