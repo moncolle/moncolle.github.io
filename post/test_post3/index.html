@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="jp">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="モンコレGET, ポケモン, モンコレ" name="keywords">
+<meta content="ぼたん" name="author">
+<meta property="og:title" content="テスト記事 - Moncolle GET Info Blog">
+<meta property="og:url" content="https://moncolle.github.io/post/test_post3/">
+<meta property="og:description" content="モンコレGETの発売情報や購入情報なんかをゆるく更新します">
+<meta property="og:type" content="website" />
+<title>テスト記事 | Moncolle GET Info Blog</title>
+<link rel="stylesheet" href="https://moncolle.github.io//css/style.css">
+<link rel="shortcut icon" href="https://moncolle.github.io//wave.ico">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+
+
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="https://moncolle.github.io/"><h1 class="title is-4">Moncolle GET Info Blog</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile">
+          
+          <a class="level-item" href="/index.xml" target="_blank">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+          </a>
+          
+        </nav>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">テスト記事</h1>
+    <h2 class="subtitle is-5">April 10, 2017 </h2>
+    
+      <div class="tags">
+    
+        <a class="button is-link" href="/tags/"></a>
+    
+</div>
+
+    
+    <div class="content">
+      <p>テストテスト</p>
+
+<p></p>
+
+<p>##記事を書く
+ブログのディレクトリである、<code>moncolle_info</code>に移動し、コマンドを叩く。</p>
+
+<pre><code>$ hugo new post/hello_world.md
+/vagrant_data/moncolle_info/content/post/hello_world.md created
+</code></pre>
+
+<p>以下のテンプレートで自動生成された。</p>
+
+<pre><code>+++
+draft = true
+tags = [&quot;tag1&quot;,&quot;tag2&quot;]
+categories = [&quot;category&quot;]
+description = &quot;&quot;
+date = &quot;2017-04-10T05:41:11Z&quot;
+title = &quot;hello_world&quot;
+author = &quot;&quot;
+
++++
+
+</code></pre>
+
+<p>##ビルド
+<code>$ hugo server</code>で内部サーバーを立ち上げてプレビューを確認出来るようだが、Vagrant内で作ってしまっているので、ブラウザからはアクセス出来ない…。<br />
+なので、直接サーバーにアップして確認する。<br />
+本番用のファイルをビルドするには、以下。</p>
+
+<pre><code>$ hugo
+</code></pre>
+
+<p>テーマは、<code>config.toml</code>で指定しているので、コマンドでも指定する必要はなし。<br />
+また、記事の冒頭部分で、<code>draft=ture</code>となっている部分は、<code>false</code>にしておく。<br />
+（でないと、本番用に生成されない）</p>
+    </div>
+    
+        <div class="nav-left">
+    <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmoncolle.github.io%2fpost%2ftest_post3%2f" title="Share on Facebook" target="_blank"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://plus.google.com/share?url=https%3a%2f%2fmoncolle.github.io%2fpost%2ftest_post3%2f" title="Share on Google+" target="_blank"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmoncolle.github.io%2fpost%2ftest_post3%2f" title="Share on LinkedIn" target="_blank"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://twitter.com/home?status=%e3%83%86%e3%82%b9%e3%83%88%e8%a8%98%e4%ba%8b - https%3a%2f%2fmoncolle.github.io%2fpost%2ftest_post3%2f" title="Tweet this" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+    <a class="nav-item" href="http://www.reddit.com/submit?url=https%3a%2f%2fmoncolle.github.io%2fpost%2ftest_post3%2f&title=%e3%83%86%e3%82%b9%e3%83%88%e8%a8%98%e4%ba%8b" title="Share on Reddit" target="_blank"><span class="fa fa-reddit-alien fa-2x" aria-hidden="true"></span></a>
+    
+    </div>
+    
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <aside><div id="disqus_thread"></div></aside>
+    <script type="text/javascript">
+      var disqus_shortname = 'モンコレGETの発売情報や購入情報なんかをゆるく更新します';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; 2017 | Follow on <a href="https://twitter.com/mgjohansen" target="_blank">Twitter</a> | <a href="https://github.com/mgjohansen/hucore.git" target="_blank">Hucore theme</a> & <a href="http://gohugo.io" target="_blank">Hugo</a> ♥</p>
+  </div>
+</section>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/go.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/dockerfile.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
