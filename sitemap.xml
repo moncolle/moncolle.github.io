@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moncolle.github.io/post/worlddisplate/</loc>
+    <lastmod>2017-04-24T08:02:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://moncolle.github.io/post/zwaza_kenkyujyo/</loc>
+    <lastmod>2017-04-24T07:47:27+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moncolle.github.io/post/new_info_cd/</loc>
     <lastmod>2017-04-12T04:03:12+00:00</lastmod>
   </url>
@@ -43,13 +53,13 @@
   
   <url>
     <loc>https://moncolle.github.io/</loc>
-    <lastmod>2017-04-12T04:03:12+00:00</lastmod>
+    <lastmod>2017-04-24T08:02:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moncolle.github.io/post/</loc>
-    <lastmod>2017-04-12T04:03:12+00:00</lastmod>
+    <lastmod>2017-04-24T08:02:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
