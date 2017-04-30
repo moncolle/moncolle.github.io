@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moncolle.github.io/post/toy_catalog_2017_spring/</loc>
+    <lastmod>2017-04-30T03:41:44+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://moncolle.github.io/post/worlddisplate/</loc>
     <lastmod>2017-04-24T08:02:32+00:00</lastmod>
   </url>
@@ -53,13 +58,13 @@
   
   <url>
     <loc>https://moncolle.github.io/</loc>
-    <lastmod>2017-04-24T08:02:32+00:00</lastmod>
+    <lastmod>2017-04-30T03:41:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://moncolle.github.io/post/</loc>
-    <lastmod>2017-04-24T08:02:32+00:00</lastmod>
+    <lastmod>2017-04-30T03:41:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
